@@ -1,0 +1,371 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: whitesmoke;
+}
+
+.navbar {
+	background-color: black;
+	width: 100%;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 1.3rem;
+}
+
+
+.navbar img {
+	width: 20vh;
+	height: 40vh;
+	background-size: cover;
+}
+
+@media screen and (max-width:768px) {
+	.home-section {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.home-section h2 {
+		padding: 20px 0px 0px;
+	}
+
+	.madara img {
+		width: 40vh;
+		height: 50vh;
+		background-size: cover;
+		margin-top: 2px;
+		margin-left: 3.2rem;
+
+	}
+
+	.madara video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 3rem;
+		margin-left: 3.8rem;
+		width: 40vh;
+		height: 60vh;
+		margin-bottom: 2rem;
+	}
+
+	.itachi img {
+		width: 40vh;
+		height: 50vh;
+		background-size: cover;
+		margin-top: 2px;
+		margin-left: 3.2rem;
+	}
+
+
+	.itachi video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 3rem;
+		margin-left: 3rem;
+		width: 40vh;
+		height: 50vh;
+		margin-bottom: 2rem;
+	}
+
+	.shisui img {
+		width: 40vh;
+		height: 50vh;
+		background-size: cover;
+		margin-top: 2px;
+		margin-left: 3.2rem;
+	}
+	.shisui video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 3rem;
+		margin-left: 3rem;
+		width: 40vh;
+		height: 50vh;
+		margin-bottom: 2rem;
+	}
+	.obito img {
+		width: 40vh;
+		height: 50vh;
+		background-size: cover;
+		margin-top: 2px;
+		margin-left: 3.2rem;
+	}
+
+	.obito video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 3rem;
+		margin-left: 3rem;
+		width: 40vh;
+		height: 50vh;
+		margin-bottom: 2rem;
+	}
+	
+
+	.sasuke img {
+		width: 40vh;
+		height: 50vh;
+		background-size: cover;
+		margin-top: 2px;
+		margin-left: 3.2rem;
+	}
+	.sasuke video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 3rem;
+		margin-left: 3rem;
+		width: 40vh;
+		height: 50vh;
+		margin-bottom: 2rem;
+	}
+	
+	.Susanoo img {
+		width: 40vh;
+		height: 50vh;
+		background-size: cover;
+		margin-top: 2px;
+		margin-left: 3.2rem;
+	}
+
+	.ability img {
+		margin-top: 2rem;
+		width: 40vh;
+		height: 50vh;
+	}
+	.eye img{
+		width: 40vh;
+		height: 40vh;
+		margin-left: 3.5rem;
+	}
+	.eye p{
+		font-weight: 200;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+	.madara img {
+		width: 80vh;
+		height: 100vh;
+		background-size: cover;
+		margin-top: 22px;
+		margin-left: 26rem;
+
+	}
+
+	.madara video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 10rem;
+		margin-left: 22rem;
+		width: 100vh;
+		height: 90vh;
+	}
+
+	.itachi img {
+		width: 80vh;
+		height: 100vh;
+		background-size: cover;
+		margin-top: 22px;
+		margin-left: 26rem;
+	}
+
+	.itachi video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 10rem;
+		margin-left: 22rem;
+		width: 100vh;
+		height: 90vh;
+	}
+
+	.shisui img {
+		width: 80vh;
+		height: 100vh;
+		background-size: cover;
+		margin-top: 22px;
+		margin-left: 26rem;
+	}
+	.shisui video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 10rem;
+		margin-left: 22rem;
+		width: 100vh;
+		height: 90vh;
+	}
+	
+
+	.obito img {
+		width: 80vh;
+		height: 100vh;
+		background-size: cover;
+		margin-top: 22px;
+		margin-left: 26rem;
+	}
+	.obito video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 10rem;
+		margin-left: 22rem;
+		width: 100vh;
+		height: 90vh;
+	}
+	
+
+	.sasuke img {
+		width: 90vh;
+		height: 100vh;
+		background-size: cover;
+		margin-top: 22px;
+		margin-left: 22rem;
+	}
+	
+	.Susanoo img {
+		margin-top: 2rem;
+		margin-left: 27rem;
+		height: 100vh;
+		width: 90vh;
+	}
+
+	.ability img {
+		margin-top: 2rem;
+	}
+
+	.eye img {
+		background-color: rgb(32, 30, 30);
+		margin-top: 2rem;
+		margin-left: 27rem;
+
+	}
+
+	.Sharingan img {
+		background-color: rgb(32, 30, 30);
+		margin-top: 2rem;
+		margin-left: 27rem;
+		height: 50vh;
+		width: 60vh;
+	}
+
+	.sasuke video {
+		background-color: rgb(32, 30, 30);
+		margin-top: 10rem;
+		margin-left: 22rem;
+		width: 100vh;
+		height: 90vh;
+	}
+}
+
+
+
+
+
+.home-section {
+	background-color: rgb(24, 23, 23);
+
+}
+
+.home-section h2 {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	padding: 30px 30px 20px;
+	line-height: 44px;
+}
+
+.member {
+	/* background-image: url(uchiha/Uchihas.jpeg); */
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.member h3 {
+	padding: 0px 10px 20px;
+	font-size: 2rem;
+	color: whitesmoke;
+}
+
+.member p {
+	padding: 0px 10px 20px;
+	margin-top: 2rem;
+	color: whitesmoke;
+	font-style: inherit;
+	font-size: 1.2rem;
+	line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.ability {
+	color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 7rem;
+
+}
+
+.ability h3 {
+	color: white;
+	font-size: 2rem;
+
+}
+
+.ability p {
+	font-size: 1.3rem;
+	font-weight: 200;
+	margin-top: 5rem;
+	padding: 22px;
+}
+
+
+
+.eye a {
+	margin-left: 1rem;
+	font-size: 1.6rem;
+}
+
+.eye p {
+	font-size: 1.3rem;
+	font-weight: 200;
+	margin-top: 0.5rem;
+	padding: 22px;
+}
+
+
+.Akatsuki a {
+
+	font-size: 1.5rem;
+	margin-left: 2rem;
+
+}
+
+.Akatsuki b {
+	color: skyblue;
+}
